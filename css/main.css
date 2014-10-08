@@ -79,6 +79,7 @@ footer {
 	width: 100%;
 	font-size: 1em;
 	padding-bottom: 5px;
+	background: #FFF;
 }
 
 footer a,
@@ -134,6 +135,11 @@ input[type=checkbox]:checked + label:before {
     line-height: 15px;
 }
 
+.nota {
+	width: 80%;
+	margin: auto;
+	padding: 10px 0;
+}
 table {
 	width: 80%;
 	margin: auto;
@@ -154,4 +160,7 @@ tr {
 }
 tr:nth-child(2n+2) {
 	background: rgba(255, 0, 71, 0.2);
+}
+.view {
+	padding-bottom: 30px;
 }

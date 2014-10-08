@@ -1,6 +1,23 @@
 <!doctype html>
 <html ng-app="queComo">
   <head>
+
+        <!--
+   _____                                   _                      
+  / ____|                                 | |                     
+ | |  __  ___ _ __ _ __ ___   __ _ _ __   | |     ___ _ __   __ _ 
+ | | |_ |/ _ \ '__| '_ ` _ \ / _` | '_ \  | |    / _ \ '_ \ / _` |
+ | |__| |  __/ |  | | | | | | (_| | | | | | |___|  __/ | | | (_| |
+  \_____|\___|_|  |_| |_| |_|\__,_|_| |_| |______\___|_| |_|\__,_|
+        -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+    <title>¿Qué como? - Germán Lena</title>
+    <meta name="description" content="">
+
+
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
@@ -17,8 +34,12 @@
   <body>
 
     <header><a href="#/sugerir"><h1>¿Qué como?</h1></a></header>
+
+    <!--[if lt IE 10]>
+        <p class="browsehappy">You are using an <strong>outdated</strong> browser and the experience section is not enabled for this browser :(. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
         
-    <div ng-view>
+    <div class="view" ng-view>
 
       <article class="sugerencia">
         <p>Cargando...</p>
@@ -30,7 +51,24 @@
     <footer>
       <a href="#/sugerir">Sugerir</a>
       - <a href="#/mostrar-platos">Listado de comidas</a>
+      - <a href="https://github.com/glena/quecomo">Github</a>
       - <a href="http://germanlena.com.ar">Germán Lena</a>
+      - <a href="https://twitter.com/german_lena">@german_lena</a>
     </footer>
+
+    <a href="https://github.com/glena/quecomo"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/365986a132ccd6a44c23a9169022c0b5c890c387/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png"></a>
+
+    <script type="text/javascript">
+        
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-51467836-1']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; 
+    ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+        
+    </script>
   </body>
 </html>
