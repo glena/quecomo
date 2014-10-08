@@ -1,0 +1,157 @@
+body {
+	
+	margin: 0;
+	padding: 0;
+	font-family: 'Ubuntu', sans-serif;
+}
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+p {
+	margin: 0;
+}
+h1 {
+	margin: 0;
+	font-size: 4em;
+	line-height: 3em;
+	color: #FF0085;
+}
+body>header {
+	text-align: center;
+	margin: 0;
+	font-family: 'Pacifico', cursive;
+}
+header a,
+header a:visited {
+	text-decoration: none;
+
+}
+
+.sugerencia {
+	width: 50%;
+	margin: 50px auto;
+	text-align: center;
+}
+.sugerencia .loading {
+	font-size: 2em;
+	color: #FF0085;
+}
+.sugerencia header {
+	font-size: 2em;
+	line-height: 1em;
+}
+
+.sugerencia p {
+	font-size: 3em;
+	line-height: 2em;
+	text-transform: capitalize;
+}
+
+.filter {
+	text-align: center;
+	line-height: 18px;
+}
+.filter .fields {
+	margin-bottom: 10px;
+}
+.filter i {
+	font-size: 3em;
+	cursor: pointer;
+
+	-moz-transition: transform 0.4s ;
+	-webkit-transition: transform 0.4s ;
+	-o-transition: transform 0.4s ;
+	transition: transform 0.4s ;
+}
+.filter i:active {
+	color: #FF0085;
+	-ms-transform: rotate(360deg); 
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	text-align: center;
+	width: 100%;
+	font-size: 1em;
+	padding-bottom: 5px;
+}
+
+footer a,
+footer a:visited {
+	color: #FF0085;
+}
+
+label {
+	display: inline-block;
+	cursor: pointer;
+	position: relative;
+	padding-left: 25px;
+	margin-right: 15px;
+	font-size: 13px;
+}
+
+input[type=radio] {
+	display: none;
+}
+label:before {
+	content: "";
+	display: inline-block;
+
+	width: 15px;
+	height: 15px;
+
+	margin-right: 10px;
+	position: absolute;
+	left: 0;
+	bottom: 1px;
+	background-color: #FFF;
+	border:1px solid #555555;
+}
+
+label:before {
+	border-radius: 9px;
+}
+
+input[type=radio]:checked + label:before {
+    content: "\2022";
+    color: #FF0085;
+    font-size: 32px;
+	text-align: center;
+	line-height: 15px;
+}
+
+input[type=checkbox]:checked + label:before {
+	content: "\2713";
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, .2);
+	font-size: 15px;
+	color: #FF0085;
+	text-align: center;
+    line-height: 15px;
+}
+
+table {
+	width: 80%;
+	margin: auto;
+	border-spacing: 0;
+}
+td,th{
+	text-align: center;
+}
+td:first-child {
+	text-align: left;
+	text-transform: capitalize;
+}
+th {
+	border-bottom: 2px solid #000;
+}
+tr {
+	line-height: 28px;
+}
+tr:nth-child(2n+2) {
+	background: rgba(255, 0, 71, 0.2);
+}

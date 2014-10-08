@@ -1,0 +1,21 @@
+
+<article class="sugerencia">
+	<header>Sugerencia:</header>
+	<p>{{suggested}}</p>
+</article>
+
+<div class="filter">
+	<div class="fields">
+		<span>Tipo de sugerencia:</span>
+
+		<input type="radio" ng-model="tipoSugerencia" name="tipoSugerencia" value="balanceada" id="sugerencia-balanceada" /><label for="sugerencia-balanceada">Balanceada</label>
+
+		<input type="radio" ng-model="tipoSugerencia" name="tipoSugerencia" value="light" id="sugerencia-light" /><label for="sugerencia-light">Light</label>
+
+		<input type="radio" ng-model="tipoSugerencia" name="tipoSugerencia" value="heavy" id="sugerencia-heavy" /><label for="sugerencia-heavy">Heavy</label>
+
+		<input type="radio" ng-model="tipoSugerencia" name="tipoSugerencia" value="todo" id="sugerencia-todo" /><label for="sugerencia-todo">Cualquier cosa</label>
+	</div>
+	
+	<i class="fa fa-refresh" ng-click="findMeAMeal();"></i>
+</div>

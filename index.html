@@ -1,0 +1,36 @@
+<!doctype html>
+<html ng-app="queComo">
+  <head>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/css/main.css">
+    <script src="/data/data.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/lodash.js/2.4.1/lodash.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-rc.4/angular.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-rc.4/angular-route.min.js"></script>
+    <script src="/js/app.js"></script>
+    <script src="/js/filters.js"></script>
+    <script src="/js/routes.js"></script>
+    <script src="/js/controllers.js"></script>
+  </head>
+  <body>
+
+    <header><a href="#/sugerir"><h1>¿Qué como?</h1></a></header>
+        
+    <div ng-view>
+
+      <article class="sugerencia">
+        <p>Cargando...</p>
+        <i class="fa fa-circle-o-notch fa-spin loading"></i>
+      </article>
+
+    </div>
+
+    <footer>
+      <a href="#/sugerir">Sugerir</a>
+      - <a href="#/mostrar-platos">Listado de comidas</a>
+      - <a href="http://germanlena.com.ar">Germán Lena</a>
+    </footer>
+  </body>
+</html>

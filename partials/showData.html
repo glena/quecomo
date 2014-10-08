@@ -1,0 +1,29 @@
+
+<table>
+	<thead>
+
+		<tr>
+			
+			<th>Nombre</th>
+			<th>¿Principal?</th>
+			<th>¿Light?</th>
+			<th>¿Tiene acompañamiento?</th>
+
+		</tr>
+
+	</thead>
+	<tbody>
+	
+
+		<tr ng-repeat="item in data">
+
+			<td>{{item.name}}</td>
+			<td>{{item.main | transformBoolean}}</td>
+			<td>{{item.light | transformBoolean}}</td>
+			<td>{{item.allowSideDish | transformBoolean}}</td>
+
+		</tr>
+
+	</tbody>
+	
+</table>
