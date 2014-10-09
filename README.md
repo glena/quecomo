@@ -1,6 +1,8 @@
 ¿Qué cómo?
 ==========
 
+http://germanlena.com.ar/quecomo
+
 ¿Por qué?
 ---------
 Dos razones, 
