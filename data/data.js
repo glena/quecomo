@@ -49,5 +49,14 @@ var meals = [
 	{name:"fideos", main:true, allowSideDish:false, light:false},
 	{name:"vacio", main:true, allowSideDish:true, light:false},	
 	{name:"bondiola", main:true, allowSideDish:true, light:false},	
-	{name:"entraña", main:true, allowSideDish:true, light:false}
+	{name:"entraña", main:true, allowSideDish:true, light:false},
+	{name:"suprema grille deshuesada con pure de calabaza", main:true, allowSideDish:false, light:true},
+	{name:"hamburguesa completa con papas fritas", main:true, allowSideDish:false, light:false},
+	{name:"tarta de pollo", main:true, allowSideDish:false, light:false},
+	{name:"fucciles", main:true, allowSideDish:false, light:false},
+	{name:"lasaña", main:true, allowSideDish:false, light:false},
+	{name:"tarta de puerros", main:true, allowSideDish:true, light:true},
+	{name:"1/2 tarta de atun", main:true, allowSideDish:true, light:true},
+	{name:"salpicon de ave", main:true, allowSideDish:true, light:true},
+	{name:"1/4 de pollo deshuesado con guarnicion", main:true, allowSideDish:true, light:true}
 	];
