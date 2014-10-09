@@ -49,7 +49,5 @@ var meals = [
 	{name:"fideos", main:true, allowSideDish:false, light:false},
 	{name:"vacio", main:true, allowSideDish:true, light:false},	
 	{name:"bondiola", main:true, allowSideDish:true, light:false},	
-	{name:"entraña", main:true, allowSideDish:true, light:false},	
-		
-	
+	{name:"entraña", main:true, allowSideDish:true, light:false}
 	];
