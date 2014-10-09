@@ -58,5 +58,5 @@ var meals = [
 	{name:"tarta de puerros", main:true, allowSideDish:true, light:true},
 	{name:"1/2 tarta de atun", main:true, allowSideDish:true, light:true},
 	{name:"salpicon de ave", main:true, allowSideDish:true, light:true},
-	{name:"1/4 de pollo deshuesado con guarnicion", main:true, allowSideDish:true, light:true}
+	{name:"1/4 de pollo deshuesado", main:true, allowSideDish:true, light:true}
 	];
